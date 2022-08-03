@@ -63,7 +63,7 @@ module.exports = {
   projectConfig: {
     // redis_url: REDIS_URL,
     // For more production-like environment install PostgresQL
-    database_url: DATABASE_URL,
+    database_url: $DATABASE_URL,
     database_type: "postgres",
     // database_database: "./medusa-db.sql",
     // database_type: "sqlite",
@@ -73,3 +73,10 @@ module.exports = {
   },
   plugins,
 };
+
+
+  // Username:    postgres
+  // Password:    fed9ed3d1d25a3c4d21eb602c16cb4cdd59ba3917798e821
+  // Hostname:    medusa-pg.internal
+  // Proxy Port:  5432
+  // PG Port: 5433
